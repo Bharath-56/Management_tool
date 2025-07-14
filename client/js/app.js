@@ -97,7 +97,7 @@ function loadProjects() {
     .catch(err => console.error('Error loading projects:', err));
 }
 
-// ---------- Tasks ----------
+
 function addTask() {
   if (!currentProjectId) return alert("Please select a project first.");
   if (role !== 'admin') return alert("Only admins can create tasks.");
